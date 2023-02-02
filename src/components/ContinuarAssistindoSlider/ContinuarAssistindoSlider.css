@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titlecarrossel {
+    display: flex;
+    gap: 1vw;
+    padding-left: 10vw;
+}
+
+.titlecarrossel h1 {
+    font-size: 1.5vw;
+    color: white;
+}
+
+
+.slidercarrossel {
+    display: inline-block;
+    flex-direction: row;
+    width: 103.5vw;
+    height: 19vw;
+    justify-content: flex-start;
+}

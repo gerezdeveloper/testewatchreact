@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.XPE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, black 1%, rgba(12, 12, 12, 0.829) 65%);
+    border-top: 1px solid rgb(87, 87, 87);
+    border-bottom: 1px solid rgb(87, 87, 87);
+    box-sizing: border-box;
+    margin-bottom: 4vw;
+}
+
+.XPE:hover {
+    transform: scale(1.01);
+    transition: .5s all;
+    border-top: 1px solid rgb(116, 177, 18);
+    border-bottom: 1px solid rgb(116, 177, 18);
+}
+
+.XPE:hover .informacoesXPE p {
+    transition: .5s all;
+    color: rgb(116, 177, 18);
+}
+
+.informacoesXPE {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    gap: 2vw;
+    width: 40vw;
+}
+
+.informacoesXPE p {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.informacoesXPE button {
+    font-size: 1.2vw;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 10vw;
+    padding: 0.5vw 0;
+}
+
+.informacoesXPE button:hover {
+    transition: .5s all;
+    background-color: rgb(116, 177, 18);
+}
+
+.informacoesXPE img {
+    width: 11vw;
+}
+
+.bannerXPE img {
+    width: 30vw;
+}
+
+.XPE:hover .bannerXPE img {
+    filter: drop-shadow(0 0 px rgb(116, 177, 18));
+}

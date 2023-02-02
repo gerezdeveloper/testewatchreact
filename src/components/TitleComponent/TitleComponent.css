@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s all;
+}
+
+.title-components {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 5vw;
+}
+
+.title-capa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    width: 18vw;
+    background: #292929;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.title-capa img {
+    width: 8vw;
+    filter: drop-shadow(0 0 7px black);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-informacoes {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.title-informacoes h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+.title-informacoes img {
+    position: relative;
+    bottom: 1vw;
+    width: 8vw;
+}
+
+.title-informacoes p {
+    font-size: 1vw;
+    color: white;
+}
+
+.title-informacoes button {
+    width: 20vw;
+    height: 4vw;
+    border-radius: 30px;
+    background-color: #E96744;
+    margin-top: 1vw;
+    box-shadow: 0 0 10px black;
+    font-size: 1.5vw;
+}
+
+.title-informacoes button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.title-components .voltar {
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    font-size: 3vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: #E96744;
+    border: none;
+    color: white;
+    border-radius: 70px;
+    box-shadow: 0 0 5px black;
+}

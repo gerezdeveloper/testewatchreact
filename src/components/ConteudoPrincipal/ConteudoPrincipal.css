@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.conteudo .conteudo-principal {
+    height: 49vw;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.itensPrincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    width: 100%;
+}
+
+.itensPrincipal h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    filter: drop-shadow(0 0 0.2em black);
+}
+
+.itensPrincipal h3 {
+    font-size: 1.2vw;
+    color: white;
+    margin-right: 70vw;
+    filter: drop-shadow(0 0 0.1em black);
+}
+
+.listaDescricao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.listaDescricao h4 {
+    font-size: 1.4vw;
+    color: #E96744;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 0.1em black);
+}
+
+.listaDescricao .classificacaoPrincipal {
+    width: 1.8vw;
+    filter: drop-shadow(0 0 0.1em black);
+}
+
+.logoWatch {
+    position: absolute;
+    width: 8vw;
+    left: 46.4vw;
+    top: 1.5vw;
+    filter: drop-shadow(0 0 0.1em rgba(170, 170, 170, 0.514));
+}
+
+.options-list {
+    position: absolute;
+    top: 12vw;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 3vw;
+}
+
+.conteudo .options-list img {
+    width: 1.5vw;
+    cursor: pointer;
+}
+
+.conteudo .options-list img:hover {
+    transition: .2s all;
+    filter: drop-shadow(0 0 0.2em #E96744);
+}
+
+.itensPrincipal button {
+    height: 2.8vw;
+    width: 9vw;
+    border: none;
+    background-color: #E96744;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    margin-top: 1vw;
+    box-shadow: 0 0 0.5em black;
+}
+
+.itensPrincipal button:hover {
+    transition: .2s all;
+    background-color: white;
+    color: #E96744;
+}
+
+
+

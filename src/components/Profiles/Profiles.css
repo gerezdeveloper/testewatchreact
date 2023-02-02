@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vw;
+  overflow: hidden;
+  background: linear-gradient(rgba(56, 56, 56, 0.74), rgba(68, 68, 68, 0.815), rgba(187, 68, 13, 0.377)), url('https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/bg/background_login.png');
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vw;
+  width: 90vw;
+  background-color: rgb(49, 49, 49);
+  position: relative;
+  bottom: 7vw;
+  box-shadow: 0 0 1em black;
+  background-image: -webkit-linear-gradient(65deg, rgba(255, 255, 255, 0) 50%, #ffffff09 50%);
+}
+
+
+.box-profiles {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+

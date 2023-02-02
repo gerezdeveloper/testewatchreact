@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Watch {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(56, 56, 56, 0.74), rgba(68, 68, 68, 0.815), rgba(187, 68, 13, 0.377)), url('https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/bg/background_login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+}
+
+.left .logo-watch {
+  width: 9vw;
+  padding: 40px 0 100px 0;
+  filter: drop-shadow(0 0 0.5em black);
+}
+
+.left .keyboard {
+  position: relative;
+  top: 10vh;
+  width: 30vw;
+}
+
+.wave {
+  position: relative;
+  top: 17vw;
+  overflow: hidden;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(36, 36, 36);
+  width: 50%;
+}
+
+.botao {
+  background: none;
+  font-weight: 700;
+  font-size: 27px;
+  padding: 10px 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  margin: 16px 0;
+  outline: none;
+}
+
+.botao:hover {
+  transition: .2s all;
+  transform: scale(1.1);
+  color: #E96744;
+  border: 2px solid #E96744;
+}
+

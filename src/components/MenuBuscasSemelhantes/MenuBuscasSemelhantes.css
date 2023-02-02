@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .2s all;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-buscas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    height: 25vh;
+    width: 10vw;
+    box-shadow: 0 0 5px black;
+}
+
+.card-buscas:hover {
+    border: 4px solid #E96744;
+    transform: scale(1.1);
+}
+
+.card-buscas img {
+    width: 5vw;
+}

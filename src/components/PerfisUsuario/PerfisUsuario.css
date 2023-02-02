@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 80px;
+    box-shadow: 0 0 0.5em black;
+    background-image: -webkit-linear-gradient(20deg, rgba(255, 255, 255, 0) 50%, #66666688 50%);
+}
+
+.perfil img {
+    width: 11vw;
+}
+
+.nome h1 {
+    font-size: 1.4vw;
+    color: #E96744;
+    filter: drop-shadow(0 0 0.1em black);
+    cursor: pointer;
+}
+
+.nome h1:hover {
+    transition: .2s all;
+    color: white;
+}
+
+.botoes button {
+    font-size: 1.5vw;
+    background: none;
+    border: 2px solid #E96744;
+    color: white;
+    padding: 1px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .botoes button:hover {
+    border: 2px solid white;
+    color: #E96744;
+    transition: .2s all;
+  }

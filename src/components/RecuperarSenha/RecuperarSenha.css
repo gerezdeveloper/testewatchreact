@@ -1,0 +1,16 @@
+.recuperar-senha p {
+    color: white;
+    font-size: 1vw;
+    padding: 180px 0 10px 0;
+}
+
+.recuperar-senha a {
+    color: white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.recuperar-senha a:hover {
+    color: orangered;
+    transition: .2s all;
+}

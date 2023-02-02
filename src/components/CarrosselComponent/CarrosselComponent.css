@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.box-carrossel {
+    position: relative;
+    left: 9vw;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    height: 15.4vw;
+    margin-left: 30px;
+    overflow: hidden;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+
+.card img {
+    height: 15.4vw;
+    width: 10.5vw;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.sinopse {
+    height: 3vw;
+    width: 10.5vw;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(27, 27, 27, 0.788);
+    color: white;
+    top: 16vw;
+    transition: .5s;
+    gap: 1vw;
+    box-shadow: 0 0 1em black;
+}
+
+.sinopse h1 {
+    font-size: 0.8vw;
+    margin-top: 0.3vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.sinopse p {
+    font-size: 0.8vw;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30px;
+    width: 5.5vw;
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    left: 2.5vw;
+    filter: drop-shadow(0 0 0.5em rgb(0, 0, 0));
+    transition: .5s;
+}
+
+.sinopse .assistir {
+    background-color: orangered;
+    position: relative;
+    bottom: 1.3vw;
+    width: 5vw;
+    border-radius: 30px;
+    font-size: 0.8vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    font-weight: 550;
+}
+
+.sinopse .assistir:hover {
+    transition: .2s all;
+    background-color: white;
+    color: #E96744;
+}
+
+.sinopse .favoritar {
+    position: relative;
+    bottom: 1vw;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    height: 1.5vw;
+    width: 2vw;
+    margin-left: 0.5vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.sinopse .favoritar:hover {
+    color: #E96744;
+    transition: .2s all;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 2px solid #E96744;
+    transition: .1s all;
+}
+
+.card:hover .sinopse {
+    height: 14vw;
+    top: 8.5vw;
+    background: rgba(0, 0, 0, 0.959);
+}
+
+.card:hover h1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover button {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+    opacity: 0.7;
+}
