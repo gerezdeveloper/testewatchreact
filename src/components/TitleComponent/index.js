@@ -10,7 +10,6 @@ const TitleComponent = () => {
 
     return (
         <div className='title-components'>          
-            <button onClick={goToHome} className='voltar'>🠔</button>
             <div className='title-capa'>
                 <img src='https://fivenet.com.br/wp-content/uploads/2022/10/Watch-Brasil.png' alt='imagem conteudo' />
             </div>

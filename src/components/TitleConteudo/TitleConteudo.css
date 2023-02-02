@@ -5,11 +5,13 @@
 
 .title {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#292929, #E96744)
+    background-image: linear-gradient(rgb(17, 17, 17), rgb(19, 19, 19), rgba(29, 29, 29, 0.966), rgba(29, 29, 29, 0.959), rgba(19, 19, 19, 0.959)), url(./assets/bgbuscas.png);
+
 }
 
 .box-title {
@@ -18,11 +20,34 @@
     justify-content: center;
     height: 85vh;
     width: 90vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.810), rgba(0, 0, 0, 0.810), rgba(0, 0, 0, 0.810)), url('https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/bg/background_login.png');
-    background-size: cover;
-    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.37);
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 5px;
-    border: 1px solid #E96744;
+}
+
+.lateral-header {
+    height: 100vh;
+    width: 10vw;
+    background-color: #292929;
+    position: relative;
+    right: 6vw;
+}
+
+.lateral-header .list-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 10vw;
+}
+
+.list-options img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.5em #E96744);
+}
+
+.lateral-header .list-options img {
+    width: 2vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    cursor: pointer;
 }
