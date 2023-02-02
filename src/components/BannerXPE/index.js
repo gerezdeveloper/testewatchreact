@@ -1,4 +1,4 @@
-import SpatialNavigation, { Focusable, FocusableSection } from 'react-js-spatial-navigation'
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation'
 import './BannerXPE.css';
 
 const BannerXPE = () => {
@@ -8,9 +8,8 @@ const BannerXPE = () => {
             <div className='informacoesXPE'>
                 <img src='https://watchbr-resources.s3.amazonaws.com/lists/XPE_color.svg' alt='logo XPE'/>
                 <p>A empresa que simplificou a vida financeira de milhares de pessoas, agora vai transformar vidas e carreiras, por meio da educação.</p>
-                <Focusable className="active">
-                <button>Explorar</button>
-                </Focusable>
+                
+                <button><Focusable>Explorar</Focusable></button>
             </div>
             <div className='bannerXPE'>
                 <img src='https://www.protestocampinas.com.br/ArquivosCliente/f5ea9826-b50a-4445-a6cd-37427d7e2244.png' alt='banner XPE'/>

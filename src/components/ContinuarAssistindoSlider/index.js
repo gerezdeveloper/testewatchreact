@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel  from 'react-bootstrap/Carousel';
 import './ContinuarAssistindoSlider.css'
-import SpatialNavigation, { Focusable, FocusableSection } from 'react-js-spatial-navigation'
 import ContinuarAssistindo from '../ContinuarAssistindo';
 
 const ContinuarAssistindoSlider = (props) => {

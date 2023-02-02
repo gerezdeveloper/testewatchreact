@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel  from 'react-bootstrap/Carousel';
 import Lineares from '../Lineares';
 import './LinearesSlider.css';
-import SpatialNavigation, { Focusable, FocusableSection } from 'react-js-spatial-navigation'
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation'
 
 const LinearesSlider = () => {
     return (
@@ -11,11 +11,13 @@ const LinearesSlider = () => {
         <SpatialNavigation>
         <div className='titlelineares'>
             <h1>Canais Ao Vivo</h1>
-            <Focusable>
-            <button>Ver mais</button>
-            </Focusable>
+            <button><Focusable>Ver mais</Focusable></button>
         </div>
+        </SpatialNavigation>
+
+        
         <div className='sliderlineares'>
+        <SpatialNavigation>
             <Carousel variant='black' indicators={false} interval={100000}>
                 <Carousel.Item>
                     <Lineares
@@ -84,8 +86,9 @@ const LinearesSlider = () => {
                 </Carousel.Item>
 
             </Carousel>
-        </div>
         </SpatialNavigation>
+        </div>
+        
         </>
     );
 }

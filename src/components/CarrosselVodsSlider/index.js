@@ -3,14 +3,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel  from 'react-bootstrap/Carousel';
 import CarrosselComponent from '../CarrosselComponent';
 import './CarrosselVodsSlider.css'
-import SpatialNavigation, { Focusable, FocusableSection } from 'react-js-spatial-navigation'
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation'
 
 const CarrosselVodsSlider = (props) => {
     return (
-        <><div className='titlecarrossel'>
+        <>
+        <SpatialNavigation><div className='titlecarrossel'>
             <h1>{props.carousel}</h1>
-            <button>Ver mais</button>
-        </div>
+            <button><Focusable>Ver mais</Focusable></button>    
+        </div></SpatialNavigation>
         <div className='slidercarrossel'>
             <Carousel variant='black' indicators={false} interval={100000}>
                 <Carousel.Item>

@@ -2,7 +2,7 @@ import BannerXPE from '../BannerXPE';
 import CarrosselVodsSlider from '../CarrosselVodsSlider'
 import LinearesSlider from '../LinearesSlider';
 import './LogadaContainer.css';
-import SpatialNavigation, { Focusable, FocusableSection } from 'react-js-spatial-navigation'
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation'
 import ContinuarAssistindoSlider from '../ContinuarAssistindoSlider';
 
 const LogadaContainer = () => {

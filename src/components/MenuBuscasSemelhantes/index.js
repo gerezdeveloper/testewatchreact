@@ -1,7 +1,6 @@
-import preprocess from 'react-native-web/dist/cjs/exports/StyleSheet/preprocess';
 import './MenuBuscasSemelhantes.css';
 
-const MenuBuscasSemelhantes = (props) => {
+const MenuBuscasSemelhantes = () => {
     return (
         <>
             <div className='card-buscas'>

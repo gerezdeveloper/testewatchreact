@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './PerfisUsuario.css'
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation';
 
 const PerfisUsuario = (props) => {
 
@@ -10,6 +11,7 @@ const PerfisUsuario = (props) => {
 
     return (
         <>
+        <SpatialNavigation>
         <div className='usuario'>
             <div className='nome'>
                 <h1>{props.nome}</h1>
@@ -18,9 +20,10 @@ const PerfisUsuario = (props) => {
                 <img src={props.imagem} alt='perfil'/>
             </div>
             <div className='botoes'>
-                <button onClick={goToHome}>Entrar</button>
+                <button onClick={goToHome}><Focusable>Entrar</Focusable></button>
             </div>
         </div>
+        </SpatialNavigation>
         </>
     );
 }

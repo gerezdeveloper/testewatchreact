@@ -1,7 +1,6 @@
 import React from 'react';
 import './Profiles.css'
 import PerfisUsuario from '../PerfisUsuario';
-import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation'
 
 function Profile() {
     return(

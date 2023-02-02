@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: .5s all;
+}
+
+.generosBusca {
+    position: absolute;
+    top: 5vw;
+    left: 45vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1vw;
+}
+
+.generos {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.generos p:hover {
+    transform: scale(1.1);
+    color: #E96744;
+    border-bottom: 1px solid #E96744;
+}
+

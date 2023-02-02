@@ -4,6 +4,7 @@ import Wave from 'react-wavify';
 import { useNavigate } from 'react-router-dom';
 import Formulario from '../Formulario';
 import RecuperarSenha from '../RecuperarSenha';
+import SpatialNavigation, { Focusable } from 'react-js-spatial-navigation';
 
 
 function LoginScreen() {
@@ -26,9 +27,11 @@ function LoginScreen() {
             }} />
         </div>
       <div className="right">
+      <SpatialNavigation>
         <Formulario />
-        <button className='botao' onClick={goToProfile}>Entrar</button>
+        <button className='botao' onClick={goToProfile}><Focusable>Entrar</Focusable></button>
         <RecuperarSenha />
+      </SpatialNavigation>
       </div>
     </div>
     );

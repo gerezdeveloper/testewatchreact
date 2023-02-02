@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.virtualKeyboard img {
+    width: 40vw;
+}
