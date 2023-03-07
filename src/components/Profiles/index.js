@@ -7,9 +7,9 @@ function Profile() {
         <div className="background">
           <div className='profiles'>
             <div className='box-profiles'>
-              <PerfisUsuario nome='Andrew' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/boy_1f466.png'} />
-              <PerfisUsuario nome='Rachel' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/woman_1f469.png'} />
-              <PerfisUsuario nome='Nero' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/ghost_1f47b.png'} />
+              <PerfisUsuario nome='Fulano' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/boy_1f466.png'} />
+              <PerfisUsuario nome='Fulana' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/woman_1f469.png'} />
+              <PerfisUsuario nome='Fulaninho' imagem={'https://em-content.zobj.net/source/microsoft-teams/337/ghost_1f47b.png'} />
           </div>
 
         </div>

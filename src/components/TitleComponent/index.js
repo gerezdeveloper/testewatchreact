@@ -1,12 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import './TitleComponent.css';
 
 const TitleComponent = () => {
-
-    const navigate = useNavigate();
-    const goToHome = () => {
-        navigate('/home');
-    }
 
     return (
         <div className='title-components'>          
